@@ -190,6 +190,7 @@ Units are reported from the original data set as a normalized value: "Features a
 82.avg.angle.tBodyGyroMean.gravityMean: double
 
 83.avg.angle.tBodyGyroJerkMean.gravityMean: double
+
 84.avg.angle.X.gravityMean: double
 
 85.avg.angle.Y.gravityMean: double
