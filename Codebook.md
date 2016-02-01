@@ -1,12 +1,12 @@
-Codebook
+#Codebook
 
 The UCI Human Activity Recognition Using Smartphones Data Set (HAR Data Set) is divided into two data sets a test and train set. The R script reads in each of those data sets doing the following transformations to generate a single tidy data set. This tidy data set averages the mean and standard deviation variables from the HAR Data Set grouping by the subject and the activity.
 
-Caveats
+**Caveats**
 
 The output was focuses around the subject and activity which would allow analysis on the performance of the user in different situations.
 
-Grouping Variables
+**Grouping Variables**
 
 subject: integer
 identifying the volunteer who performed the activities
@@ -18,7 +18,7 @@ WALKING
 WALKING_DOWNSTAIRS
 WALKING_UPSTAIRS
 
-Measurements
+**Measurements**
 
 Each value is a double-precision vector summarizing the average of all measurements of the subject's activity. The tidy data sets only uses the related mean and standard deviation from each group
 
